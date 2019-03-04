@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-// Split a string in substrings each N characters
+// SplitSubstringN Split a string in substrings each N characters
 func SplitSubstringN(s string, n int) []string {
 	sub := ""
 	subs := []string{}
@@ -25,7 +25,7 @@ func SplitSubstringN(s string, n int) []string {
 	return subs
 }
 
-// remove duplicates from a int32 array
+// RemoveDuplicatesInt32 remove duplicates from a int32 array
 func RemoveDuplicatesInt32(a []int32) []int32 {
 	r := []int32{}
 	seen := map[int32]int32{}
@@ -39,5 +39,5 @@ func RemoveDuplicatesInt32(a []int32) []int32 {
 }
 
 func main() {
-	fmt.Println("vim-go")
+	fmt.Println("golang macgyver")
 }
